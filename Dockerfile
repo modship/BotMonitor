@@ -22,6 +22,6 @@ FROM debian:stable-slim
 RUN apt-get update && apt-get install -y openssl ca-certificates && rm -rf /var/lib/apt/lists/*
 ADD cert.cer /etc/ssl/certs/
 
-COPY --from=cargo-build /usr/local/cargo/bin/mdgate_survey /bin
+COPY --from=cargo-build /usr/local/cargo/bin/bot_monitor /bin
 
-CMD ["mdgate_survey"]
+CMD ["bot_monitor"]

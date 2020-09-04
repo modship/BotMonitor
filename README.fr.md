@@ -14,7 +14,7 @@ Lien vers la documentation pour la création du bot : [ici](https://developer.we
 À la création du bot un token vous sera fournis, il faut le conserver. Si vous le perdez il faut générer un nouveau token ce qui entraîne l'annulation de l'ancien.
 
 
-## Récuperation de la room_id
+## Récupération de la room_id
 * Création de la room via votre client webex
 * [Cliquez ici](https://developer.webex.com/docs/api/v1/rooms/list-rooms) pour vous rendre sur l'api webex (il faut être log).
 * Cliquez sur "Run"
