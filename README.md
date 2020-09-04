@@ -10,7 +10,7 @@ If the service does not respond the error message is transmitted in a webex room
 
 ## Create du bot Webex
 
-Link to the documentation for creating the bot : [ici](https://developer.webex.com/docs/bots)
+Link to the documentation for creating the bot : [here](https://developer.webex.com/docs/bots)
 
 When creating the bot a token will be provided to you, you must keep it. If you lose it you have to generate a new token which causes the old token to be cancelled.
 
