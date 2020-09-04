@@ -8,7 +8,7 @@ If the service does not respond the error message is transmitted in a webex room
 
 ~ Setting up between 5 and 10Min
 
-## Create du bot Webex
+## Create webex bot
 
 Link to the documentation for creating the bot : [here](https://developer.webex.com/docs/bots)
 
