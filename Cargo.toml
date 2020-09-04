@@ -1,0 +1,19 @@
+[package]
+name = "bot_monitor"
+version = "0.1.1"
+authors = ["Urvoy <l.urvoy@systel-sa.com>"]
+edition = "2018"
+
+
+[dependencies]
+webex = "0.2.1"
+async-std = "1.5.0"
+futures = "0.3.4"
+futures-util = "0.3.4"
+tokio = { version = "0.2.16", features = ["time", "stream", "fs", "macros", "uds", "io-util"] }
+job_scheduler = "*"
+reqwest = { version = "0.10.6", features = ["blocking", "json"] }
+log4rs = "0.12.0"
+log = "0.4.8"
+serde = { version = "1.0.115", features = ["derive"] }
+serde_json = "1.0.57"

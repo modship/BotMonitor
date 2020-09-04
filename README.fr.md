@@ -29,7 +29,7 @@ Sur le client webex :
 * Ajout du bot (via son nom) pour qu'il ait l'autorisation d'envoyer des messages.
 
 
-##Configuration de BotMonitor
+## Configuration de BotMonitor
 
 Créer un fichier .json et y placer la configuration suivante :
 
@@ -53,7 +53,7 @@ Exemple pour deux services:
 ]
 ```
 
-##Release 
+## Release 
 Les release ce situe dans release/
 
 ## Start
